@@ -34,7 +34,7 @@ You must be receiving a coupon for redeeming Google Cloud Credits from the TA. O
 
 ### Create Google Project
 Please create a new project for smoother configuration using [these instructions](https://developers.google.com/workspace/guides/create-project).
-- Use a relevant name for the project like `Speech-E6998`.
+- Use a relevant name for the project like `Speech-Rec-E6998`.
 - Make sure that the billing account is set to `Billing Account for Education` which you get from redeeming the cloud credits from the previous step.
 
 
@@ -97,7 +97,7 @@ Refer to [examples and documentation here](https://cloud.google.com/sdk/gcloud/r
 
 Generally the following works:
   - $ `gcloud compute ssh <VM NAME> --ssh-key-file=~/.ssh/<UNI> --zone=<ZONE NAME>   --project=<PROJECT NAME>`
-  - For example: $ `gcloud compute ssh speech-spring-23 --ssh-key-file=~/.ssh/sk5057 --zone=us-east1-c --project=Speech-E6998`
+  - For example: $ `gcloud compute ssh speech-spring-23 --ssh-key-file=~/.ssh/sk5057 --zone=us-east1-c --project=Speech-Rec-E6998`
 
 ### Install Dependencies
 Run the [kaldi_prerequisites](kaldi_prerequisites.sh) script to install the dependencies for kaldi.
