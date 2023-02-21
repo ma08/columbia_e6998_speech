@@ -147,10 +147,6 @@ Therefore, PLEASE REMOVE THE GPU after testing the CUDA installation.
 ## Google Cloud SSH and GPU tips
 Refer to [this file](SSH_and_GPU.md) for solutions to common SSH and GPU problems. Make sure to read this file. 
 
-## Contribute
-Feel free to submit issues and pull requests to report anything or submit useful improvements/additions.
-
-
 
 
 
