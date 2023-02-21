@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # E6998 Fundamentals of Speech Recognition (Prof. Homayoon Beigi) at Columbia University
 
-This repository contains information to setup a Ubuntu 18.04 VM Google Cloud VM and install Kaldi on it for the `E6998 Fundamentals of Speech Recognition` course at Columbia University in the City of New York.
+This repository contains information to setup a Ubuntu 20.04 VM Google Cloud VM and install Kaldi on it for the `E6998 Fundamentals of Speech Recognition` course at Columbia University in the City of New York.
 
 <!-- omit in toc -->
 ## Contents
