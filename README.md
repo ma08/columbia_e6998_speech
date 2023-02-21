@@ -1,7 +1,7 @@
 <!-- omit in toc -->
-# 6998 Fundamentals of Speech Recognition (Prof. Homayoon Beigi)
+# E6998 Fundamentals of Speech Recognition (Prof. Homayoon Beigi) at Columbia University
 
-This repository contains information to setup a Ubuntu 18.04 VM Google Cloud VM and install Kaldi on it for the `6998 Fundamentals of Speech Recognition` course at Columbia University.
+This repository contains information to setup a Ubuntu 18.04 VM Google Cloud VM and install Kaldi on it for the `6998 Fundamentals of Speech Recognition` course at Columbia University in the City of New York.
 
 <!-- omit in toc -->
 ## Contents
@@ -56,7 +56,7 @@ In the following steps, we will create a VM with GPU, install Nvidia CUDA driver
 1. Go to [VM instances page](https://console.cloud.google.com/compute/instances). Make sure that the right project is selected. 
 2. If asked to enable `Compute Engine API`, enable it.  
 3. Create a VM with the following config and a suitable name (for e.g. `speech-spring23`)
-   - OS: `Ubuntu 18.04`
+   - OS: `Ubuntu 20.04`
    - Type: `n1-highmem-8` (8 vCPUs, 52GB GB memory)
    - CPU Platform: `Intel Haswell`
    - GPUs: `1 x NVIDIA Tesla K80`
