@@ -56,7 +56,7 @@ In the following steps, we will create a VM with GPU, install Nvidia CUDA driver
 1. Go to [VM instances page](https://console.cloud.google.com/compute/instances). Make sure that the right project is selected. 
 2. If asked to enable `Compute Engine API`, enable it.  
 3. Create a VM with the following config and a suitable name (for e.g. `speech-spring23`)
-   - OS: `Ubuntu 20.04`
+   - OS: `Ubuntu 20.04 (x86/64)`
    - Type: `n1-highmem-8` (8 vCPUs, 52GB GB memory)
    - CPU Platform: `Intel Haswell`
    - GPUs: `1 x NVIDIA Tesla K80`
